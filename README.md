@@ -29,5 +29,13 @@
 	* Coins are not affected by gravity, and stay in the spot they were in the match 3.
 	* Static tile types such as grass, stone, cloud, and sky retain their position throughout the platformer level and do not move (other than during the match 3).
 - **Activities the Player Performs:**
+	* The player is able to attempt switching two adjacent tiles and if this switch results in three or more adjacent tiles matching each other, the swap is performed.  Otherwise, the tiles are swapped back.
+	* User attempts to make a playable level by getting rid of unfavorable tiles and prioritizing better ones; or different tiles matched in a better order.
+	* Player can control the platformer character using the W, A, S, D keys and spacebar.
+	* Character is able to attack, either with sword or possibly ranged weapon, such as bow or rifle.
+	* Player collides with coins to collect them and increase points.  These points are collected and when a sufficient number have been reached the level is won.
+	* The user progresses level by level through the campaign, or alternatively plays endless where the match 3 and platforming aspects are played simultaneously.
 - **Game Structure:**
+	* In the process of planning this right now.
 - **User Interface:**
+	* More information will be specified as we get closer to developing this feature.
